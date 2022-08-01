@@ -4,7 +4,8 @@
 //
 //  Created by peak on 2022/7/29.
 //
-
+/// Copy from JohnSundell/ShellOut
+/// https://github.com/JohnSundell/ShellOut/blob/master/Sources/ShellOut.swift
 import Foundation
 
 // MARK: API

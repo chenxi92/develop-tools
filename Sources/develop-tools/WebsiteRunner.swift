@@ -7,12 +7,15 @@
 
 import Foundation
 
+/// Inspire from JohnSundell/Publish
+/// https://github.com/JohnSundell/Publish/blob/master/Sources/PublishCLICore/WebsiteRunner.swift
+///
 internal struct WebsiteRunner {
     let portNumber: Int
     let logger: Logging
     
     func run() throws {
-        let serverQueue = DispatchQueue(label: "Publish.WebServer")
+        let serverQueue = DispatchQueue(label: "WebServer")
         let serverProcess = Process()
         let command = self.command
         
