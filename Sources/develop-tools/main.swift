@@ -6,7 +6,7 @@ struct ToolKit: ParsableCommand {
             commandName: "develop-tool",
             abstract: "A cli tool for develop",
             version: "1.0.0",
-            subcommands: [KillProcess.self, HttpServer.self]
+            subcommands: [KillProcess.self, HttpServer.self, GIFMaker.self]
         )
     }
 }
